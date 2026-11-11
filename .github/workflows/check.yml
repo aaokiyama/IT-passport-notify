@@ -1,8 +1,6 @@
 name: Check IT Passport
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # 1時間ごとの実行
   workflow_dispatch:
 
 jobs:
